@@ -1,0 +1,28 @@
+2021-07-12 17:55:13.218  INFO Akarsh --- [  restartedMain] c.c.d.CompanyApplication                 : Starting CompanyApplication using Java 15.0.2 on Akarsh with PID 13416 (C:\Users\Akarsh Arya\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\company\target\classes started by Akarsh Arya in C:\Users\Akarsh Arya\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\company)
+2021-07-12 17:55:13.219  INFO Akarsh --- [  restartedMain] c.c.d.CompanyApplication                 : No active profile set, falling back to default profiles: default
+2021-07-12 17:55:13.383  INFO Akarsh --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-12 17:55:13.405  INFO Akarsh --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 6 JPA repository interfaces.
+2021-07-12 17:55:13.522  INFO Akarsh --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-07-12 17:55:13.522  INFO Akarsh --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-07-12 17:55:13.523  INFO Akarsh --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-07-12 17:55:13.523  INFO Akarsh --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2021-07-12 17:55:13.592  INFO Akarsh --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-07-12 17:55:13.594  INFO Akarsh --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-07-12 17:55:13.594  INFO Akarsh --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 373 ms
+2021-07-12 17:55:13.628  INFO Akarsh --- [  restartedMain] c.z.h.HikariDataSource                   : orgnization - Starting...
+2021-07-12 17:55:13.650  INFO Akarsh --- [  restartedMain] c.z.h.HikariDataSource                   : orgnization - Start completed.
+2021-07-12 17:55:13.669  INFO Akarsh --- [  restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-12 17:55:13.674  INFO Akarsh --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-07-12 17:55:13.726  INFO Akarsh --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-12 17:55:13.726  INFO Akarsh --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-12 17:55:13.956  WARN Akarsh --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-12 17:55:14.018  INFO Akarsh --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6004e02, org.springframework.security.web.context.SecurityContextPersistenceFilter@7aef5492, org.springframework.security.web.header.HeaderWriterFilter@d5bed93, org.springframework.security.web.authentication.logout.LogoutFilter@61bb66c9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e09815e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c6cd479, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@364d392d, org.springframework.security.web.session.SessionManagementFilter@5e7a6d68, org.springframework.security.web.access.ExceptionTranslationFilter@69a5a0f9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@663a4a47]
+2021-07-12 17:55:14.083  INFO Akarsh --- [  restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-07-12 17:55:14.164  INFO Akarsh --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-07-12 17:55:14.174  INFO Akarsh --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-07-12 17:55:14.178  INFO Akarsh --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-12 17:55:14.181  INFO Akarsh --- [  restartedMain] c.c.d.CompanyApplication                 : Started CompanyApplication in 1.002 seconds (JVM running for 2004.83)
+2021-07-12 17:55:14.182  INFO Akarsh --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-07-12 17:57:16.741  INFO Akarsh --- [      Thread-33] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-12 17:57:16.742  INFO Akarsh --- [      Thread-33] c.z.h.HikariDataSource                   : orgnization - Shutdown initiated...
+2021-07-12 17:57:16.745  INFO Akarsh --- [      Thread-33] c.z.h.HikariDataSource                   : orgnization - Shutdown completed.
